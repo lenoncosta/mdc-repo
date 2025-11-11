@@ -1,7 +1,5 @@
 # mdc-repo
 
-
-
-##Mentoria devops cloud!!
+## Mentoria devops cloud!!
 
 ## TESTE
