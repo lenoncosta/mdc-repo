@@ -1,3 +1,5 @@
+![Banner de Lenon Costa — Dados, Python, SQL e Cloud](https://raw.githubusercontent.com/lenoncosta/mdc-repo/main/profile-banner.svg)
+
 <div align="center">
 
 # LENON COSTA
