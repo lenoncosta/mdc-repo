@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Lenon Costa — Data, Python, SQL and Cloud</title>
+  <desc id="desc">Banner escuro em azul e roxo com linhas e nós que representam fluxos de dados.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#172B4D"/>
+      <stop offset="52%" stop-color="#263A73"/>
+      <stop offset="100%" stop-color="#503B78"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#34D3C5"/>
+      <stop offset="100%" stop-color="#9C8CFF"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#FFFFFF" stroke-opacity=".07" stroke-width="1"/>
+    </pattern>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="320" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="22" fill="url(#grid)"/>
+  <path d="M0 258 C190 220 290 290 470 250 S770 210 930 260 S1090 285 1200 235 L1200 320 L0 320Z" fill="#111827" opacity=".32"/>
+  <path d="M0 276 C220 240 335 300 525 264 S820 236 1000 276 S1120 282 1200 262" fill="none" stroke="url(#accent)" stroke-width="2" opacity=".55"/>
+  <g fill="none" stroke="url(#accent)" stroke-width="3" opacity=".85" filter="url(#glow)">
+    <path d="M820 82H920V135H1010"/>
+    <path d="M850 218H930V180H1030"/>
+    <path d="M920 135V180"/>
+    <path d="M1010 135H1090V90H1150"/>
+    <path d="M1030 180H1100V230H1160"/>
+  </g>
+  <g fill="#14213D" stroke="#78E4DB" stroke-width="3">
+    <rect x="795" y="58" width="50" height="48" rx="9"/>
+    <rect x="895" y="111" width="50" height="48" rx="9"/>
+    <rect x="985" y="111" width="50" height="48" rx="9"/>
+    <rect x="825" y="194" width="50" height="48" rx="9"/>
+    <rect x="1005" y="156" width="50" height="48" rx="9"/>
+    <rect x="1070" y="66" width="50" height="48" rx="9"/>
+    <rect x="1080" y="207" width="50" height="48" rx="9"/>
+  </g>
+  <g fill="#A9FFF4">
+    <circle cx="820" cy="82" r="5"/><circle cx="920" cy="135" r="5"/>
+    <circle cx="1010" cy="135" r="5"/><circle cx="850" cy="218" r="5"/>
+    <circle cx="1030" cy="180" r="5"/><circle cx="1095" cy="90" r="5"/>
+    <circle cx="1105" cy="231" r="5"/>
+  </g>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="78" y="112" fill="#B9C7FF" font-size="19" font-weight="700" letter-spacing="5">PORTFÓLIO PROFISSIONAL</text>
+    <text x="74" y="183" fill="#FFFFFF" font-size="58" font-weight="800" letter-spacing="1">LENON COSTA</text>
+    <rect x="78" y="207" width="72" height="5" rx="2.5" fill="url(#accent)"/>
+    <text x="78" y="252" fill="#E2E8F0" font-size="25" font-weight="600" letter-spacing="3">DATA  •  PYTHON  •  SQL  •  CLOUD</text>
+  </g>
+</svg>
